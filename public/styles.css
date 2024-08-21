@@ -1,0 +1,36 @@
+body{
+    padding: 5rem;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{  
+        border: 3px solid #ccc; /* Light gray border */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /*Slight shadow*/
+        padding: 10px; /* Optional padding */
+        border-radius: 15px; /* Optional rounded corners */
+      
+    margin: 10px;
+    
+    
+}
+ 
+
+.output{
+    color: blue;
+    font-size: 20px;
+    padding: 5px;
+    
+    
+}
+#dateContainer{
+    display: flex;
+    justify-content: end;
+}
+#date{
+    font-size: 15px;
+    color: #6a6868;
+}
